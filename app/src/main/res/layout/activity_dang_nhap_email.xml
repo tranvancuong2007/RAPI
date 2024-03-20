@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangNhapEmail">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên đăng nhập:"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/edtTdn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu:"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/edtMkdn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnDn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="#4d66ff"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnDk"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="#ffb833"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
